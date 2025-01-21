@@ -299,7 +299,7 @@
 			<div class="right-col">
 				<h1 style="color: #fff">Our Newsletter</h1>
 				<div class="border"></div><br>
-				<p>Enter Your Email to get our News and updates.</p>
+				<p>Enter Your Email to get our News and updates .</p>
 				<form class="newsletter-form" action="user_database/new_letter_data.php" method="post">
 					<input class="txtb" type="email" name="email" placeholder="Enter Your Email">
 					<input class="btn" type="submit" value="Submit">
