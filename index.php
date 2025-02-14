@@ -128,22 +128,22 @@
 		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
 		<div class="totalcard">
 			<div class="card">
-				<center><img src="images/creator/rohit.png"></center>
+				<center><img src="images/creator/rohit1.png"></center>
 				<center><div class="card-title">Rohit Rangile</div>
 				<div id="detail">
 					<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
 					<div class="duty"></div>
-					<a href="https://www.linkedin.com/in/roshan-kumar-a18b76179/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+					<a href="https://github.com/ROHITRANGILE" target="_blank"><button class="btn-roshan">Follow +</button></a>
 				</div>
 				</center>
 			</div>
 			<div class="card">
-				<center><img src="images/creator/rohit.png"></center>
-				<center><div class="card-title">Rohit Rangile</div>
+				<center><img src="images/creator/sumit1.png"></center>
+				<center><div class="card-title">Sumit Arjhare</div>
 				<div id="detail">
 					<p>“ Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity “</p>
 					<div class="duty"></div>
-					<a href="https://www.linkedin.com/in/roshan-kumar-a18b76179/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+					<a href="https://github.com/sumit08752" target="_blank"><button class="btn-roshan2">Follow +</button></a>
 				</div>
 				</center>
 			</div>
@@ -156,13 +156,13 @@
 		<div class="diffSection" id="services_section">
 		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
 		</div>
-		<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
-		<a href="subjects/jee.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
-		<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
-		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
-		<a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a>
+		<a href="subjects/computer_courses.php"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
+		<a href="subjects/jee.php"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="subjects/computer_courses.php"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
+		<a href="subjects/jee.php#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
+		<a href="#portfolio_section"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
-		<a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+		<a href="subjects/quiz.php"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
 	</div>
 

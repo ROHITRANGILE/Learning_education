@@ -14,7 +14,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $sql = "SELECT * FROM register_user_data WHERE email = '$email' AND password = '$password'";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
-           
         function function_alert($message) {
             echo "<script>alert('$message');</script>";
         }
@@ -23,11 +22,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
     }
     else {
+       $sql = "SELECT * FROM login_user_data WHERE email = '$email' AND password = '$password'";
+       $result = $conn->query($sql);
+       if ($result->num_rows > 0) {
+        function function_alert($message) {
+            echo "<script>alert('$message');</script>";
+        }
+        function_alert("Login Successfully");
+        echo "<script>location.href = '../admin_page/admin_page.php';</script>";
+       }
+       else {
         function function_alert($message) {
             echo "<script>alert('$message');</script>";
         }
         function_alert("Login Failed");
         echo "<script>location.href = 'login.php';</script>";
+       }
     } 
     $conn->close();
 }

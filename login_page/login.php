@@ -20,11 +20,6 @@
 				<button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Log In</button>
 				<button type="button" class="toggle-btn" id="reg" onclick="register()">Register</button>
 			</div>
-			<div class="social-icons">
-				<img src="../images/icon/fb2.png">
-				<img src="../images/icon/insta2.png">
-				<img src="../images/icon/tt2.png">
-			</div>
 			
 			<!-- Login Form -->
 			<form id="login" class="input-group" action="login_user_data.php" method="post">
@@ -41,11 +36,7 @@
 
 			<div class="other" id="other">
 				<div class="instead">
-					<h3>or</h3>
 				</div>
-				<button class="connect" onclick="google()">
-					<img src="../images/icon/google.png"><span>Sign in with Google</span>
-				</button>
 			</div>
 			
 			<!-- Registration Form -->
