@@ -237,9 +237,9 @@
 		<div class="back-contact">
 			<div class="cc">
 			<form action="user_database/contact_data.php" method="post">
-				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<label>First Name <span class="imp">*</span>>Last Name <span class="imp">*</span></label><br>
 				<center>
-				<input type="text" name="f_name" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="l_name" style="width: 175px" required="required"><br>
+				<input type="text" name="f_name" required="required"><input type="text" name="l_name" required="required"><br>
 				</center>
 				<label>Email <span class="imp">*</span></label><br>
 				<input type="email" name="email" style="width: 100%" required="required"><br>
